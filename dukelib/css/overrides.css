@@ -1,0 +1,8 @@
+#searchBox label {
+    display: inline !important;
+}
+
+div#searchTabs {font-family:Arial, Helvetica, sans-serif;}
+div#searchTabs ul li a span {font-size: 12px;}
+
+.duke-branding { background: url(../images/header-gradient.gif) repeat-x !important;
