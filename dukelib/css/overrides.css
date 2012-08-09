@@ -11,6 +11,7 @@ div#searchTabs ul li a span {font-size: 12px;}
 }
 .dukelib-bottom {
 	background: #324299 url(../images/footer-blue-gradient.jpg) repeat-x top left;
+	margin-top: 10px;
 }
 
 /*----------------------- MENU ZONE / MEGAMENU ----------------------*/
