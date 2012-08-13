@@ -5,6 +5,7 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
 version = '1.x'
+stylesheets[all][] = css/overrides.css
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
