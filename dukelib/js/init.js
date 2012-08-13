@@ -4,7 +4,7 @@
 			$('.item-list', '.myCarouselNews').jCarouselLite({
 				btnNext		: '#nextNews',
 				btnPrev		: '#prevNews',
-				visible		: 2,
+				visible		: 3,
 				scroll		: 1,
 				easing		: 'easeInOut',
 				auto		: 4340,
