@@ -1,0 +1,38 @@
+/***************************************************
+ * Carousel related style definitions
+ * for the front page news and blog carousel widgets
+ *
+*****************************************************/
+
+div.myCarouselNews ul li {margin: 0; padding: 0; width: 175px; height: 175px; position: relative; float: left;}
+div.myCarouselNews {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1em;
+}
+.myCarouselNews a {
+	font-weight: bold;
+	text-decoration: none !important;
+	font-size: 11px;
+}
+
+.navArrows {float: right; display: inline; margin: 0, padding: 0}
+div.navButton {float:left; margin: 0; padding: 0; display: inline; cursor: pointer; border: none; outline: none;}
+div.prevButton, div.nextButton {height: 20px; width: 20px;}
+div.prevButton {background: url(../images/navarrow_left.png) no-repeat; margin-right: 2px;}
+div.prevButton:hover {background: url(../images/navarrow_left_blue.png) no-repeat;}
+div.nextButton {background: url(../images/navarrow_right.png) no-repeat;}
+
+.img-shadow {
+}
+.img-shadow img {
+	display: block; 
+	position: relative; 
+	background-color: white; 
+	border: 1px solid darkGray; 
+	margin: 6px 6px 6px 6px;
+	padding: 4px;
+	box-shadow: 0 0 5px #888;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+}
+
