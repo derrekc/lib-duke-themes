@@ -9,11 +9,24 @@ div#searchTabs ul li a span {font-size: 12px;}
     background: url(../images/header-gradient.gif) repeat-x !important;
 	padding: 3px 0;
 }
+
+/********************* DUKE LIBRARY FOOTER (not the bottom links) ********/
 .dukelib-bottom {
 	background: #324299 url(../images/footer-blue-gradient.jpg) repeat-x top left;
 	margin-top: 10px;
+	color: white;
 }
+	.dukelib-bottom h2 {
+		color: #EBB41A;
+		font-size: 1.5em;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
 
+/*=============== Hours Table =================*/
+div.toggle-trigger {
+	text-align: center;
+}
 /*----------------------- MENU ZONE / MEGAMENU ----------------------*/
 .zone-menu-wrapper {
 	background-color: #DAD0C6;

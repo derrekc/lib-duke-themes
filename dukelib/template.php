@@ -12,15 +12,7 @@
  */
  
 function dukelib_page_alter(&$page) {
-	$page['footer']['footer']['footer_first']['new_stuff'] = array(
- 		'#type' => 'container',
- 		'#attributes' => array('class' => 'my-container'),
- 	);
- 	$page['footer']['footer']['footer_first']['new_stuff']['heading'] = array(
- 		'#type' => 'markup',
- 		'#markup' => '<h3>My Footer Heading</h3>',
- 		'#attributes' => array('id' => 'my-heading'),
- 	);
+	// NOTHING TO ALTER at the moment
  	//dpm($page['footer']);
 }
 

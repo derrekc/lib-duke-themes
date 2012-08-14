@@ -11,7 +11,7 @@
 	<div class="content" <?php print $content_attributes; ?>>
 	<?php echo $content; ?>
 	</div>
-	<div><a href="#" id="hours-expand">Today</a></div>
+	<div class='toggle-trigger'><a href="#" id="hours-expand">Today</a></div>
 	<p class="hours-links">
 		<a href="http://library.duke.edu/about/hours" 
 		   onclick="pageTracker._trackEvent('homepage', 'otherLibraryHours');">
